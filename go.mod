@@ -1,0 +1,43 @@
+module github.com/hashicorp/terraform-plugin-sdk
+
+go 1.12
+
+require (
+	github.com/agext/levenshtein v1.2.2
+	github.com/apparentlymart/go-cidr v1.0.0
+	github.com/apparentlymart/go-dump v0.0.0-20180507223929-23540a00eaa3
+	github.com/blang/semver v3.5.1+incompatible
+	github.com/davecgh/go-spew v1.1.1
+	github.com/go-test/deep v1.0.1
+	github.com/golang/mock v1.3.1
+	github.com/golang/protobuf v1.3.1
+	github.com/google/go-cmp v0.3.0
+	github.com/hashicorp/errwrap v1.0.0
+	github.com/hashicorp/go-cleanhttp v0.5.1
+	github.com/hashicorp/go-getter v1.3.0
+	github.com/hashicorp/go-hclog v0.9.2
+	github.com/hashicorp/go-multierror v1.0.0
+	github.com/hashicorp/go-plugin v1.0.1
+	github.com/hashicorp/go-uuid v1.0.1
+	github.com/hashicorp/go-version v1.2.0
+	github.com/hashicorp/hcl v1.0.0
+	github.com/hashicorp/hcl2 v0.0.0-20190618163856-0b64543c968c
+	github.com/hashicorp/hil v0.0.0-20190212132231-97b3a9cdfa93
+	github.com/hashicorp/logutils v1.0.0
+	github.com/hashicorp/terraform-config-inspect v0.0.0-20190524144125-e2ee25ba1e5e
+	github.com/mitchellh/cli v1.0.0
+	github.com/mitchellh/colorstring v0.0.0-20190213212951-d06e56a500db
+	github.com/mitchellh/copystructure v1.0.0
+	github.com/mitchellh/go-homedir v1.1.0
+	github.com/mitchellh/go-wordwrap v1.0.0
+	github.com/mitchellh/hashstructure v1.0.0
+	github.com/mitchellh/mapstructure v1.1.2
+	github.com/mitchellh/reflectwalk v1.0.1
+	github.com/satori/go.uuid v1.2.0
+	github.com/spf13/afero v1.2.2
+	github.com/zclconf/go-cty v1.0.0
+	github.com/zclconf/go-cty-yaml v0.1.0
+	golang.org/x/crypto v0.0.0-20190621222207-cc06ce4a13d4
+	golang.org/x/net v0.0.0-20190620200207-3b0461eec859
+	google.golang.org/grpc v1.21.1
+)
