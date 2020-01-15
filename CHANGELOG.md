@@ -1,10 +1,31 @@
-# 1.4.0 (Unreleased)
+# 1.5.0 (Unreleased)
 
 FEATURES: 
 
-* helper/validation: Add `FloatAtLeast` and `FloatAtMost` validation functions [GH-239]
-* helper/validation: Add `StringDoesNotMatch` validation function [GH-240]
-* ResourceData: Add `HasChanges` variadic method [GH-241]
+* helper/validation: Add `StringIsEmpty`, `StringIsNotEmpty`, `StringIsWhiteSpace`, `StringIsNotWhiteSpace`, and `UUID` validation functions [GH-294]
+
+BUG FIXES:
+
+* schema/ExactlyOneOf: Fix handling of unknowns in complex types [GH-287]
+
+# 1.4.1 (December 18, 2019)
+
+BUG FIXES:
+
+* helper/resource: Don't crash when dependent test sweeper is missing ([#279](https://github.com/hashicorp/terraform-plugin-sdk/issues/279))
+
+# 1.4.0 (November 20, 2019)
+
+NOTES:
+
+* pruned dead code from internal pkg ([#251](https://github.com/hashicorp/terraform-plugin-sdk/issues/251))
+* bumped dependency of `terraform-config-inspect` to remove transitive dependency ([#252](https://github.com/hashicorp/terraform-plugin-sdk/issues/252))
+
+FEATURES: 
+
+* helper/validation: Add `FloatAtLeast` and `FloatAtMost` validation functions ([#239](https://github.com/hashicorp/terraform-plugin-sdk/issues/239))
+* helper/validation: Add `StringDoesNotMatch` validation function ([#240](https://github.com/hashicorp/terraform-plugin-sdk/issues/240))
+* ResourceData: Add `HasChanges` variadic method ([#241](https://github.com/hashicorp/terraform-plugin-sdk/issues/241))
 
 # 1.3.0 (November 06, 2019)
 
